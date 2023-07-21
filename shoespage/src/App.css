@@ -1,38 +1,87 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin:0;
+  padding: 0;
+   box-sizing:border-box;
+   font-family: 'Oswald', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  background-color: #00CBE6;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav{
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color:white;
+  margin:0 auto;
+  background-color: black;
+  height:55px;
+}
+nav ul li{
+  list-style: none;
+  font-size:19px;
+  margin-right: 38px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: 900;
+ }
+nav ul{
+  display: flex;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+nav span{
+   color:#00CBE6;
+}
+nav button{
+  padding:5px 16px;
+  margin-right:10px;
+  border-radius:12px;
+  border:none;
+  background-color:#00CBE6;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section{
+  display:flex;
+  justify-content: space-around;
+}
+.text{
+  margin-left: 55px;
+  margin-top:75px;
+}
+.section .text h1{
+  font-size: 54px;
+}
+.section .text p{
+  font-family: cursive;
+  font-weight: 900;
+  font-size:22px;
+  margin-top:13px;
+}
+
+.button .one{
+  background-color: #FD0032;
+  border-radius: 8px;
+  border: none;
+  padding: 5px 8px;
+  font-weight: 900;
+}
+.button .two{
+  border-radius: 8px;
+  border: none;
+  padding: 5px 8px;
+  margin-left:12px;
+}
+.button{
+  margin-top:14px;
+}
+.brand-img{
+  margin-top:10px;
+}
+
+.shoplogo h1{
+  font-size: 29px;
+  font-family: cursive;
+  color: #FD0032;
 }
